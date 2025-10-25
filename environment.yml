@@ -1,0 +1,12 @@
+name: mfa-service
+channels:
+  - conda-forge
+  - bioconda # for tgt
+  - defaults
+dependencies:
+  - python=3.11
+  - montreal-forced-aligner>=3.3.7
+  - kalpy>=0.8.2
+  - tgt>=1.4
+  - fastapi[standard]>=0.119
+  
