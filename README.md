@@ -6,7 +6,7 @@ A FastAPI-based web service for forced alignment of audio and text using Montrea
 
 - RESTful API for audio-transcript alignment
 - Returns alignment results as JSON with word and phone-level timing
-- Currently English-only (hardcodes pretrained English US ARPA)
+- Currently hardcodes the dictionaries, so only supports one language at a time
 
 ## Setup
 
@@ -34,8 +34,8 @@ A FastAPI-based web service for forced alignment of audio and text using Montrea
 
 4. Download the required MFA models:
    ```bash
-   mfa model download acoustic english_us_arpa
-   mfa model download dictionary english_us_arpa
+   mfa model download acoustic english_mfa
+   mfa model download dictionary english_us_mfa
    ```
 
 ### Running the Server
