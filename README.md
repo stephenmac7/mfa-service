@@ -18,7 +18,7 @@ A FastAPI-based web service for forced alignment of audio and text using Montrea
 
 1. Clone this repository:
    ```bash
-   git clone <repo-url>
+   git clone git@github.com:stephenmac7/mfa-service.git
    cd mfa-service
    ```
 
